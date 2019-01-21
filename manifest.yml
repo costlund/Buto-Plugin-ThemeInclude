@@ -1,0 +1,44 @@
+version: '1.0'
+history:
+  '1.0':
+    date: '2019-01-21'
+    description: 'First version.'
+plugin:
+  -
+    name: twitter/bootstrap413v
+    version: '1.0'
+  -
+    name: bootstrap/navbar_v1
+    version: '1.4'
+  -
+    name: wf/bootstrapjs
+    version: '1.2'
+  -
+    name: wf/dom
+    version: '1.0'
+  -
+    name: wf/ajax
+    version: '1.0'
+  -
+    name: wf/callbackjson
+    version: '1.0'
+  -
+    name: wf/account2
+    version: '1.2'
+  -
+    name: icons/octicons
+    version: '1.0'
+  -
+    name: form/form_v1
+    version: '1.14'
+sys:
+  -
+    name: mercury
+    version:
+      - '1.0'
+php:
+  - '7.2'
+author: null
+links:
+  Github: 'https://github.com'
+description: ''

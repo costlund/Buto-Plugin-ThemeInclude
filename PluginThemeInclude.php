@@ -49,6 +49,11 @@ class PluginThemeInclude{
     wfPlugin::enable('form/form_v1');
     $element[] = wfDocument::createWidget('form/form_v1', 'include');
     /**
+     * eternicode/bootstrapdatepicker2
+     */
+    wfPlugin::enable('eternicode/bootstrapdatepicker2');
+    $element[] = wfDocument::createWidget('eternicode/bootstrapdatepicker2', 'include');
+    /**
      * 
      */
     wfDocument::renderElement($element);

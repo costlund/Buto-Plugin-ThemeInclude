@@ -31,6 +31,9 @@ plugin:
   -
     name: form/form_v1
     version: '1.14'
+  -
+    name: eternicode/bootstrapdatepicker2
+    version: '1.0'
 sys:
   -
     name: mercury

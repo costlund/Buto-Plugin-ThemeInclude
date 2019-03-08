@@ -1,6 +1,8 @@
 <?php
 class PluginThemeInclude{
-  public function widget_include(){
+  public function widget_include($data){
+    wfPlugin::includeonce('wf/array');
+    $data = new PluginWfArray($data);
     /**
      * 
      */
@@ -9,7 +11,12 @@ class PluginThemeInclude{
      * Bootstrap 4.
      */
     wfPlugin::enable('twitter/bootstrap413v');
-    $element[] = wfDocument::createWidget('twitter/bootstrap413v', 'include', array('meta' => true, 'css' => true, 'jquery' => true, 'popper' => true, 'js' => true));
+    $element[] = wfDocument::createWidget('twitter/bootstrap413v', 'include', array('meta' => true, 'css' => false, 'jquery' => true, 'popper' => true, 'js' => true));
+    /**
+     * Bootswatch.
+     */
+    wfPlugin::enable('bootstrap/bootswatch_v431');
+    $element[] = wfDocument::createWidget('bootstrap/bootswatch_v431', 'include', array('theme' => $data->get('data/bootswatch/theme')));
     /**
      * Navbar.
      */

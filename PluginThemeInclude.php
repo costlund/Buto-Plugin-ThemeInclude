@@ -11,7 +11,7 @@ class PluginThemeInclude{
      * Bootstrap 4.
      */
     wfPlugin::enable('twitter/bootstrap413v');
-    $element[] = wfDocument::createWidget('twitter/bootstrap413v', 'include', array('meta' => true, 'css' => false, 'jquery' => true, 'popper' => true, 'js' => true));
+    $element[] = wfDocument::createWidget('twitter/bootstrap413v', 'include', array('meta' => true, 'css' => true, 'jquery' => true, 'popper' => true, 'js' => true));
     /**
      * Bootswatch.
      */
@@ -60,6 +60,11 @@ class PluginThemeInclude{
      */
     wfPlugin::enable('eternicode/bootstrapdatepicker2');
     $element[] = wfDocument::createWidget('eternicode/bootstrapdatepicker2', 'include');
+    /**
+     * datatable/datatable_1_10_16
+     */
+    wfPlugin::enable('datatable/datatable_1_10_18');
+    $element[] = wfDocument::createWidget('datatable/datatable_1_10_18', 'include', array('style' => 'bootstrap', 'export' => true));
     /**
      * 
      */

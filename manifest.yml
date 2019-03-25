@@ -1,5 +1,8 @@
-version: '1.1'
+version: '1.2'
 history:
+  '1.2':
+    date: '2019-03-25'
+    description: 'More mobile friendly modals.'
   '1.1':
     date: '2019-03-08'
     description: 'Included Bootswatch.'
@@ -45,6 +48,9 @@ plugin:
     version: '1.0'
   -
     name: datatable/datatable_1_10_18
+    version: '1.0'
+  -
+    name: bootstrap4/fs_modal
     version: '1.0'
 sys:
   -

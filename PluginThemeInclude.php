@@ -61,10 +61,15 @@ class PluginThemeInclude{
     wfPlugin::enable('eternicode/bootstrapdatepicker2');
     $element[] = wfDocument::createWidget('eternicode/bootstrapdatepicker2', 'include');
     /**
-     * datatable/datatable_1_10_16
+     * datatable/datatable_1_10_18
      */
     wfPlugin::enable('datatable/datatable_1_10_18');
     $element[] = wfDocument::createWidget('datatable/datatable_1_10_18', 'include', array('style' => 'bootstrap', 'export' => true));
+    /**
+     * bootstrap4/fs_modal
+     */
+    wfPlugin::enable('bootstrap4/fs_modal');
+    $element[] = wfDocument::createWidget('bootstrap4/fs_modal', 'include');
     /**
      * 
      */

@@ -43,6 +43,9 @@ plugin:
   -
     name: bootstrap/bootswatch_v431
     version: '1.0'
+  -
+    name: datatable/datatable_1_10_18
+    version: '1.0'
 sys:
   -
     name: mercury

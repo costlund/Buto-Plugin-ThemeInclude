@@ -15,8 +15,10 @@ class PluginThemeInclude{
     /**
      * Bootswatch.
      */
-    wfPlugin::enable('bootstrap/bootswatch_v431');
-    $element[] = wfDocument::createWidget('bootstrap/bootswatch_v431', 'include', array('theme' => $data->get('data/bootswatch/theme')));
+    if($data->get('data/bootswatch/theme')){
+      wfPlugin::enable('bootstrap/bootswatch_v431');
+      $element[] = wfDocument::createWidget('bootstrap/bootswatch_v431', 'include', array('theme' => $data->get('data/bootswatch/theme')));
+    }
     /**
      * Navbar.
      */

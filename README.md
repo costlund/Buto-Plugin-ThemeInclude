@@ -8,6 +8,7 @@ This plugin include other plugins matching Bootstrap 4 usage. It will keep your 
 Include widget in html head section.
 
 
+Param data/bootswatch/theme has to be set to one of www.bootswatch.com themes for version 4.3.1.
 ```
 type: widget
 data:
@@ -16,9 +17,4 @@ data:
   data:
     bootswatch:
       theme: Cerulean
-```
-
-```
-data/bootswatch/theme
-One of www.bootswatch.com themes for version 4.3.1.
 ```

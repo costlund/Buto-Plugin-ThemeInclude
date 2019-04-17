@@ -73,6 +73,10 @@ class PluginThemeInclude{
     wfPlugin::enable('bootstrap4/fs_modal');
     $element[] = wfDocument::createWidget('bootstrap4/fs_modal', 'include');
     /**
+     * wf/embed
+     */
+    wfPlugin::enable('wf/embed');
+    /**
      * 
      */
     wfDocument::renderElement($element);

@@ -77,6 +77,11 @@ class PluginThemeInclude{
      */
     wfPlugin::enable('wf/embed');
     /**
+     * bootstrap/css_v1
+     */
+    wfPlugin::enable('bootstrap/css_v1');
+    $element[] = wfDocument::createWidget('bootstrap/css_v1', 'include');
+    /**
      * 
      */
     wfDocument::renderElement($element);

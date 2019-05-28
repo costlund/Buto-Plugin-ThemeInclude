@@ -82,6 +82,11 @@ class PluginThemeInclude{
     wfPlugin::enable('bootstrap/css_v1');
     $element[] = wfDocument::createWidget('bootstrap/css_v1', 'include');
     /**
+     * i18n/json_v1
+     */
+    wfPlugin::enable('i18n/json_v1');
+    $element[] = wfDocument::createWidget('i18n/json_v1', 'include');
+    /**
      * 
      */
     wfDocument::renderElement($element);

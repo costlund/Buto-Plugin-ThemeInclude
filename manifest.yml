@@ -1,5 +1,8 @@
-version: '1.3'
+version: '1.4'
 history:
+  '1.4':
+    date: '2019-05-30'
+    description: 'Add link element for icon.'
   '1.3':
     date: '2019-05-28'
     description: 'Add PluginI18nJson_v1.'

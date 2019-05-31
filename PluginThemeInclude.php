@@ -8,6 +8,10 @@ class PluginThemeInclude{
      */
     $element = array();
     /**
+     * Icon
+     */
+    $element[] = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => '/theme/[theme]/icon/link_icon.png'));
+    /**
      * Bootstrap 4.
      */
     wfPlugin::enable('twitter/bootstrap413v');

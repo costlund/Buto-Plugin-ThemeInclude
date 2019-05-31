@@ -18,3 +18,11 @@ data:
     bootswatch:
       theme: Cerulean
 ```
+
+## Icon
+
+Path to icon.
+
+```
+/theme/[theme]/icon/link_icon.png
+```

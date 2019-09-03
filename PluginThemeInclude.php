@@ -10,7 +10,8 @@ class PluginThemeInclude{
     /**
      * Icon
      */
-    $element[] = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => '/theme/[theme]/icon/link_icon.png'));
+    $t = wfFilesystem::getFiletime(wfGlobals::getWebDir().wfSettings::replaceDir('/theme/[theme]/icon/link_icon.png'));
+    $element[] = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => '/theme/[theme]/icon/link_icon.png?t='.$t));
     /**
      * Bootstrap 4.
      */

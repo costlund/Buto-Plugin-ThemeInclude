@@ -10,8 +10,38 @@ class PluginThemeInclude{
     /**
      * Icon
      */
-    $t = wfFilesystem::getFiletime(wfGlobals::getWebDir().wfSettings::replaceDir('/theme/[theme]/icon/link_icon.png'));
-    $element[] = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => '/theme/[theme]/icon/link_icon.png?t='.$t));
+    $icon_element = null;
+    if($data->get('data/icon')){
+      /**
+       * If an icon is set.
+       */
+      $t = wfFilesystem::getFiletime(wfGlobals::getWebDir().wfSettings::replaceDir($data->get('data/icon')));
+      if(!$t){
+        throw new Exception('PluginThemeInclude says: Could not find icon '.$data->get('data/icon').'!');
+      }else{
+        $icon_element = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => $data->get('data/icon').'?t='.$t));
+      }
+    }
+    if(!sizeof($icon_element)){
+      /**
+       * If there is an theme icon.
+       */
+      $t = wfFilesystem::getFiletime(wfGlobals::getWebDir().wfSettings::replaceDir('/theme/[theme]/icon/link_icon.png'));
+      if($t){
+        $icon_element = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => '/theme/[theme]/icon/link_icon.png?t='.$t));
+      }
+    }
+    if(!sizeof($icon_element)){
+      /**
+       * Else we use this plugin icon.
+       */
+        $t = wfFilesystem::getFiletime(wfGlobals::getWebDir().wfSettings::replaceDir('/plugin/theme/include/icon/icon.png'));
+        wfHelp::yml_dump($t);
+        $icon_element = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => '/plugin/theme/include/icon/icon.png?u='.$t));
+    }
+    if(sizeof($icon_element)){
+      $element[] = $icon_element;
+    }
     /**
      * Bootstrap 4.
      */

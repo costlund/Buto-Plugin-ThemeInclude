@@ -10,7 +10,7 @@ class PluginThemeInclude{
     /**
      * Icon
      */
-    $icon_element = null;
+    $icon_element = array();
     if($data->get('data/icon')){
       /**
        * If an icon is set.

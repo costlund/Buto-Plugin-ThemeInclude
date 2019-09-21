@@ -64,6 +64,9 @@ plugin:
   -
     name: i18n/json_v1
     version: '1.0'
+  -
+    name: wf/embed
+    version: '1.0'
 sys:
   -
     name: mercury

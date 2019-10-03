@@ -36,7 +36,6 @@ class PluginThemeInclude{
        * Else we use this plugin icon.
        */
         $t = wfFilesystem::getFiletime(wfGlobals::getWebDir().wfSettings::replaceDir('/plugin/theme/include/icon/icon.png'));
-        wfHelp::yml_dump($t);
         $icon_element = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => '/plugin/theme/include/icon/icon.png?u='.$t));
     }
     if(sizeof($icon_element)){

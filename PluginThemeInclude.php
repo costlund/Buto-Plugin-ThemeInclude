@@ -121,6 +121,10 @@ class PluginThemeInclude{
     wfPlugin::enable('i18n/json_v1');
     $element[] = wfDocument::createWidget('i18n/json_v1', 'include');
     /**
+     * wf/table
+     */
+    wfPlugin::enable('wf/table');
+    /**
      * 
      */
     wfDocument::renderElement($element);

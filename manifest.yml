@@ -1,19 +1,28 @@
-version: '1.4'
+version: '1.5.0'
 history:
-  '1.4':
+  '1.5.0':
+    date: '2019-12-12'
+    label: PluginWfTable
+    description: 'Enabled PluginWfTable.'
+  '1.4.0':
     date: '2019-05-30'
+    label: Icon
     description: 'Add link element for icon.'
-  '1.3':
+  '1.3.0':
     date: '2019-05-28'
+    label: PluginI18nJson_v1
     description: 'Add PluginI18nJson_v1.'
-  '1.2':
+  '1.2.0':
     date: '2019-03-25'
+    label: Modals
     description: 'More mobile friendly modals.'
-  '1.1':
+  '1.1.0':
     date: '2019-03-08'
+    label: Bootswatch
     description: 'Included Bootswatch.'
-  '1.0':
+  '1.0.0':
     date: '2019-01-21'
+    label: First version
     description: 'First version.'
 plugin:
   -
@@ -67,6 +76,9 @@ plugin:
   -
     name: wf/embed
     version: '1.0'
+  -
+    name: wf/table
+    version: '1.12'
 sys:
   -
     name: mercury

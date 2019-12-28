@@ -125,6 +125,11 @@ class PluginThemeInclude{
      */
     wfPlugin::enable('wf/table');
     /**
+     * bootstrap/navtabs_v1
+     */
+    wfPlugin::enable('bootstrap/navtabs_v1');
+    $element[] = wfDocument::createWidget('bootstrap/navtabs_v1', 'include');
+    /**
      * 
      */
     wfDocument::renderElement($element);

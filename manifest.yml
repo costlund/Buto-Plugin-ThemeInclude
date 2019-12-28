@@ -1,5 +1,9 @@
-version: '1.5.0'
+version: '1.6.0'
 history:
+  '1.6.0':
+    date: '2019-12-28'
+    label: PluginBootstrapNavtabs_v1
+    description: 'Enabled PluginBootstrapNavtabs_v1.'
   '1.5.0':
     date: '2019-12-12'
     label: PluginWfTable
@@ -79,6 +83,9 @@ plugin:
   -
     name: wf/table
     version: '1.12'
+  -
+    name: bootstrap/navtabs_v1
+    version: '1.0'
 sys:
   -
     name: mercury

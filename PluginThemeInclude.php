@@ -8,6 +8,10 @@ class PluginThemeInclude{
      */
     $element = array();
     /**
+     * 
+     */
+    $element[] = wfDocument::createHtmlElement('text', "<!-- PluginThemeInclude, Start -->\n");
+    /**
      * Icon
      */
     $icon_element = array();
@@ -129,6 +133,10 @@ class PluginThemeInclude{
      */
     wfPlugin::enable('bootstrap/navtabs_v1');
     $element[] = wfDocument::createWidget('bootstrap/navtabs_v1', 'include');
+    /**
+     * 
+     */
+    $element[] = wfDocument::createHtmlElement('text', "<!-- PluginThemeInclude, End -->\n");
     /**
      * 
      */

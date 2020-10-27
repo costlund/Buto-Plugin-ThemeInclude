@@ -1,5 +1,9 @@
-version: 1.6.0
+version: 1.7.0
 history:
+  1.7.0:
+    date: '2020-10-27'
+    title: 'Bootstrap version'
+    description: 'Upgrade from twitter/bootstrap413v to twitter/bootstrap453v.'
   1.6.0:
     date: '2019-12-28'
     title: PluginBootstrapNavtabs_v1

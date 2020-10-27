@@ -48,8 +48,8 @@ class PluginThemeInclude{
     /**
      * Bootstrap 4.
      */
-    wfPlugin::enable('twitter/bootstrap413v');
-    $element[] = wfDocument::createWidget('twitter/bootstrap413v', 'include', array('meta' => true, 'css' => true, 'jquery' => true, 'popper' => true, 'js' => true));
+    wfPlugin::enable('twitter/bootstrap453v');
+    $element[] = wfDocument::createWidget('twitter/bootstrap453v', 'include', array('meta' => true, 'css' => true, 'jquery' => true, 'popper' => true, 'js' => true));
     /**
      * Bootswatch.
      */

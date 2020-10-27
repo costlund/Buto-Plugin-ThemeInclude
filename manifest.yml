@@ -1,5 +1,9 @@
-version: 1.7.0
+version: 1.7.1
 history:
+  1.7.1:
+    date: '2020-10-27'
+    title: 'Manifest'
+    description: 'Manifest plugin update.'
   1.7.0:
     date: '2020-10-27'
     title: 'Bootstrap version'
@@ -34,7 +38,7 @@ history:
     description: 'First version.'
 plugin:
   -
-    name: twitter/bootstrap413v
+    name: twitter/bootstrap453v
     version: 1.1.1
   -
     name: bootstrap/navbar_v1

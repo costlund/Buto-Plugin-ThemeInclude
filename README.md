@@ -1,13 +1,7 @@
 # Buto-Plugin-ThemeInclude
-
 This plugin include other plugins matching Bootstrap 4 usage. It will keep your theme settings file smaller.
-
-
 ## Widget
-
 Include widget in html head section.
-
-
 Param data/bootswatch/theme has to be set to one of www.bootswatch.com themes for version 4.3.1.
 ```
 type: widget
@@ -17,12 +11,10 @@ data:
   data:
     bootswatch:
       theme: Cerulean
+    icon: _path_to_icon_
 ```
-
 ## Icon
-
-Path to icon.
-
+Path to icon is optional. Default value below.
 ```
-/theme/[theme]/icon/link_icon.png
+icon: '/theme/[theme]/icon/link_icon.png'
 ```

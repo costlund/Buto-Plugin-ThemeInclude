@@ -2,7 +2,7 @@ version: 1.7.1
 history:
   1.7.1:
     date: '2020-10-27'
-    title: 'Manifest'
+    title: Manifest
     description: 'Manifest plugin update.'
   1.7.0:
     date: '2020-10-27'
@@ -39,10 +39,10 @@ history:
 plugin:
   -
     name: twitter/bootstrap453v
-    version: 1.1.1
+    version: 1.1.0
   -
     name: bootstrap/navbar_v1
-    version: 1.11.2
+    version: 1.11.3
   -
     name: wf/bootstrapjs
     version: '1.6'
@@ -60,22 +60,22 @@ plugin:
     version: '1.0'
   -
     name: wf/account2
-    version: 1.10.1
+    version: 1.10.5
   -
     name: icons/octicons
     version: '1.1'
   -
     name: form/form_v1
-    version: 1.45.5
+    version: 1.48.2
   -
     name: eternicode/bootstrapdatepicker2
-    version: 1.4.0
+    version: 1.5.1
   -
     name: bootstrap/bootswatch_v431
     version: '1.1'
   -
     name: datatable/datatable_1_10_18
-    version: 1.4.1
+    version: 1.4.2
   -
     name: bootstrap4/fs_modal
     version: '1.1'
@@ -90,7 +90,7 @@ plugin:
     version: 1.1.0
   -
     name: wf/table
-    version: 1.17.1
+    version: 1.20.0
   -
     name: bootstrap/navtabs_v1
     version: 1.2.0

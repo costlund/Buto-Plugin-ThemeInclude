@@ -12,6 +12,13 @@ class PluginThemeInclude{
      */
     $element[] = wfDocument::createHtmlElement('text', "<!-- PluginThemeInclude, Start -->\n");
     /**
+     * Noindex
+     */
+    if($data->get('data/noindex/enabled')){
+      wfPlugin::enable('meta/noindex');
+      $element[] = wfDocument::createWidget('meta/noindex', 'noindex');
+    }
+    /**
      * Icon
      */
     $icon_element = array();
@@ -53,8 +60,8 @@ class PluginThemeInclude{
     /**
      * Bootswatch.
      */
+    wfPlugin::enable('bootstrap/bootswatch_v431');
     if($data->get('data/bootswatch/theme')){
-      wfPlugin::enable('bootstrap/bootswatch_v431');
       $element[] = wfDocument::createWidget('bootstrap/bootswatch_v431', 'include', array('theme' => $data->get('data/bootswatch/theme')));
     }
     /**

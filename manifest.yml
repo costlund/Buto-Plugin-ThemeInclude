@@ -1,5 +1,9 @@
-version: 1.7.1
+version: 1.8.0
 history:
+  1.8.0:
+    date: '2021-02-03'
+    title: Noindex
+    description: 'Add plugin meta/noindex.'
   1.7.1:
     date: '2020-10-27'
     title: Manifest
@@ -94,6 +98,9 @@ plugin:
   -
     name: bootstrap/navtabs_v1
     version: 1.2.0
+  -
+    name: meta/noindex
+    version: 1.0.0
 sys:
   -
     name: mercury

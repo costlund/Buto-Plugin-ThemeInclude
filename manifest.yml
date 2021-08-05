@@ -1,5 +1,9 @@
-version: 1.8.7
+version: 1.8.8
 history:
+  1.8.8:
+    date: '2021-08-05'
+    title: Versions
+    description: 'Versions update.'
   1.8.7:
     date: '2021-06-16'
     title: Versions
@@ -92,7 +96,7 @@ plugin:
     version: '1.0'
   -
     name: wf/account2
-    version: 1.13.5
+    version: 1.15.0
   -
     name: icons/octicons
     version: 1.1.1
@@ -125,7 +129,7 @@ plugin:
     version: 1.24.0
   -
     name: bootstrap/navtabs_v1
-    version: 1.2.1
+    version: 1.2.0
   -
     name: meta/noindex
     version: 1.0.1

@@ -1,5 +1,9 @@
-version: 1.8.14
+version: 1.8.15
 history:
+  1.8.15:
+    date: '2021-11-16'
+    title: Versions
+    description: 'Versions update.'
   1.8.14:
     date: '2021-11-05'
     title: Versions
@@ -129,7 +133,7 @@ plugin:
     version: 1.51.11
   -
     name: eternicode/bootstrapdatepicker2
-    version: 1.5.1
+    version: 1.6.0
   -
     name: bootstrap/bootswatch_v431
     version: '1.1'

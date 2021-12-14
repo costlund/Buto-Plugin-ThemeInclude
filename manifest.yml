@@ -1,5 +1,9 @@
-version: 1.8.16
+version: 1.8.17
 history:
+  1.8.17:
+    date: '2021-12-14'
+    title: Versions
+    description: 'Versions update.'
   1.8.16:
     date: '2021-12-01'
     title: Versions
@@ -143,7 +147,7 @@ plugin:
     version: '1.1'
   -
     name: datatable/datatable_1_10_18
-    version: 1.4.5
+    version: 1.4.6
   -
     name: bootstrap4/fs_modal
     version: 1.4.0
@@ -158,7 +162,7 @@ plugin:
     version: 1.1.1
   -
     name: wf/table
-    version: 1.26.0
+    version: 1.27.0
   -
     name: bootstrap/navtabs_v1
     version: 1.2.1

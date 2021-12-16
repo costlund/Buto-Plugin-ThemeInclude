@@ -1,5 +1,9 @@
-version: 1.8.17
+version: 1.8.18
 history:
+  1.8.18:
+    date: '2021-12-16'
+    title: Versions
+    description: 'Versions update.'
   1.8.17:
     date: '2021-12-14'
     title: Versions
@@ -132,13 +136,13 @@ plugin:
     version: '1.0'
   -
     name: wf/account2
-    version: 1.18.1
+    version: 1.19.0
   -
     name: icons/octicons
     version: 1.1.1
   -
     name: form/form_v1
-    version: 1.51.12
+    version: 1.51.13
   -
     name: eternicode/bootstrapdatepicker2
     version: 1.6.0

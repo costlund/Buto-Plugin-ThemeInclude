@@ -30,7 +30,7 @@ class PluginThemeInclude{
       if(!$t){
         throw new Exception('PluginThemeInclude says: Could not find icon '.$data->get('data/icon').'!');
       }else{
-        $icon_element = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => $data->get('data/icon').'?t='.$t));
+        $icon_element = wfDocument::createHtmlElement('link', null, array('rel' => 'icon', 'sizes' => '16x16', 'type' => 'image/png', 'href' => wfSettings::replaceDir($data->get('data/icon')).'?t='.$t));
       }
     }
     if(!sizeof($icon_element)){

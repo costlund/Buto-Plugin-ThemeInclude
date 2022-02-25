@@ -1,5 +1,9 @@
-version: 1.8.20
+version: 1.9.0
 history:
+  1.9.0:
+    date: '2022-02-25'
+    title: Icon
+    description: 'Icon can have path with tags inside.'
   1.8.20:
     date: '2022-01-12'
     title: Versions

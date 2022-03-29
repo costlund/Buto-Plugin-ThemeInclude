@@ -1,5 +1,9 @@
-version: 1.9.0
+version: 1.9.1
 history:
+  1.9.1:
+    date: '2022-03-29'
+    title: Versions
+    description: 'Versions update.'
   1.9.0:
     date: '2022-02-25'
     title: Icon
@@ -127,7 +131,7 @@ history:
 plugin:
   -
     name: twitter/bootstrap453v
-    version: 1.2.0
+    version: 1.2.2
   -
     name: bootstrap/navbar_v1
     version: 1.13.0
@@ -139,22 +143,22 @@ plugin:
     version: '1.0'
   -
     name: wf/ajax
-    version: 1.4.1
+    version: 1.4.2
   -
     name: wf/array
-    version: 1.2.2
+    version: 1.2.3
   -
     name: wf/callbackjson
     version: '1.0'
   -
     name: wf/account2
-    version: 1.20.0
+    version: 1.20.1
   -
     name: icons/octicons
     version: 1.1.1
   -
     name: form/form_v1
-    version: 1.51.14
+    version: 1.52.0
   -
     name: eternicode/bootstrapdatepicker2
     version: 1.6.0
@@ -178,7 +182,7 @@ plugin:
     version: 1.1.1
   -
     name: wf/table
-    version: 1.28.0
+    version: 1.28.2
   -
     name: bootstrap/navtabs_v1
     version: 1.2.1

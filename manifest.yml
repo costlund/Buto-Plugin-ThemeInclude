@@ -1,5 +1,9 @@
-version: 1.10.0
+version: 1.10.1
 history:
+  1.10.1:
+    date: '2022-05-02'
+    title: Versions
+    description: 'Versions update.'
   1.10.0:
     date: '2022-04-29'
     title: Icons
@@ -156,13 +160,13 @@ plugin:
     version: '1.0'
   -
     name: wf/account2
-    version: 1.20.1
+    version: 1.20.2
   -
     name: icons/octicons
     version: 1.1.1
   -
     name: form/form_v1
-    version: 1.52.0
+    version: 1.52.1
   -
     name: eternicode/bootstrapdatepicker2
     version: 1.6.0
@@ -171,7 +175,7 @@ plugin:
     version: '1.1'
   -
     name: datatable/datatable_1_10_18
-    version: 1.4.6
+    version: 1.4.7
   -
     name: bootstrap4/fs_modal
     version: 1.4.0
@@ -186,7 +190,7 @@ plugin:
     version: 1.1.1
   -
     name: wf/table
-    version: 1.28.2
+    version: 1.30.0
   -
     name: bootstrap/navtabs_v1
     version: 1.2.1

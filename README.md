@@ -7,12 +7,11 @@ type: widget
 data:
   plugin: 'theme/include'
   method: include
+  data:
 ```
 ### Bootswatch
 Check out plugin bootstrap/bootswatch_v431 for availible theme settings. Param data/bootswatch/theme has to be set to one of www.bootswatch.com themes for version 4.3.1. If not set theme Cerulean is used.
 ```
-data:
-  data:
     icon: '/theme/[theme]/icon/link_icon.png'
     bootswatch:
       theme: Cerulean
@@ -20,15 +19,19 @@ data:
 ### Icon
 Path to icon is optional. Default value below.
 ```
-data:
-  data:
     icon: '/theme/[theme]/icon/link_icon.png'
 ```
 ### Noindex
 Set enable to true to stop search engins for indexing pages.
 ```
-data:
-  data:
     noindex:
       enabled: true
+```
+
+### Icons
+We are using Bootstrap icons 1.8.1.
+For a while we also using Octicons. To include them this settings has to be set.
+```
+    icons:
+      octicons: true
 ```

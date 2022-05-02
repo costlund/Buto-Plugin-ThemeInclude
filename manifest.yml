@@ -1,5 +1,9 @@
-version: 1.9.1
+version: 1.10.0
 history:
+  1.10.0:
+    date: '2022-04-29'
+    title: Icons
+    description: 'Add plugin icons/bootstrap_v1_8_1 and made plugin icons/octicons availible as an option.'
   1.9.1:
     date: '2022-03-29'
     title: Versions
@@ -189,6 +193,9 @@ plugin:
   -
     name: meta/noindex
     version: 1.0.1
+  -
+    name: icons/bootstrap_v1_8_1
+    version: 1.0.0
 sys:
   -
     name: mercury

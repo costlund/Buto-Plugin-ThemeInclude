@@ -96,7 +96,9 @@ class PluginThemeInclude{
     /**
      * icons/octicons.
      */
-    wfPlugin::enable('icons/octicons');
+    if($data->get('data/icons/octicons')){
+      wfPlugin::enable('icons/octicons');
+    }
     /**
      * form/form_v1
      */
@@ -140,6 +142,10 @@ class PluginThemeInclude{
      */
     wfPlugin::enable('bootstrap/navtabs_v1');
     $element[] = wfDocument::createWidget('bootstrap/navtabs_v1', 'include');
+    /**
+     * icons/bootstrap_v1_8_1
+     */
+    wfPlugin::enable('icons/bootstrap_v1_8_1');
     /**
      * 
      */

@@ -1,5 +1,9 @@
-version: 1.10.4
+version: 1.10.5
 history:
+  1.10.5:
+    date: '2022-05-31'
+    title: Versions
+    description: 'Versions update.'
   1.10.4:
     date: '2022-05-23'
     title: Versions
@@ -154,7 +158,7 @@ plugin:
     version: 1.2.2
   -
     name: bootstrap/navbar_v1
-    version: 1.14.1
+    version: 1.15.0
   -
     name: wf/bootstrapjs
     version: 1.7.1

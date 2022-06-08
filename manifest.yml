@@ -1,5 +1,9 @@
-version: 1.10.5
+version: 1.10.6
 history:
+  1.10.6:
+    date: '2022-06-08'
+    title: Versions
+    description: 'Versions update.'
   1.10.5:
     date: '2022-05-31'
     title: Versions
@@ -155,10 +159,10 @@ history:
 plugin:
   -
     name: twitter/bootstrap453v
-    version: 1.2.2
+    version: 1.2.3
   -
     name: bootstrap/navbar_v1
-    version: 1.15.0
+    version: 1.15.1
   -
     name: wf/bootstrapjs
     version: 1.7.1
@@ -176,13 +180,13 @@ plugin:
     version: '1.0'
   -
     name: wf/account2
-    version: 1.21.0
+    version: 1.21.1
   -
     name: icons/octicons
     version: 1.1.1
   -
     name: form/form_v1
-    version: 1.52.3
+    version: 1.52.4
   -
     name: eternicode/bootstrapdatepicker2
     version: 1.6.0
@@ -191,10 +195,10 @@ plugin:
     version: '1.1'
   -
     name: datatable/datatable_1_10_18
-    version: 1.4.8
+    version: 1.5.0
   -
     name: bootstrap4/fs_modal
-    version: 1.4.0
+    version: 1.4.1
   -
     name: bootstrap/css_v1
     version: '1.0'
@@ -206,16 +210,16 @@ plugin:
     version: 1.1.1
   -
     name: wf/table
-    version: 1.30.0
+    version: 1.31.0
   -
     name: bootstrap/navtabs_v1
     version: 1.3.0
   -
     name: meta/noindex
-    version: 1.0.1
+    version: 1.0.2
   -
     name: icons/bootstrap_v1_8_1
-    version: 1.1.0
+    version: 1.1.1
 sys:
   -
     name: mercury

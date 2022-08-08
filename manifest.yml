@@ -1,5 +1,9 @@
-version: 1.10.7
+version: 1.10.8
 history:
+  1.10.8:
+    date: '2022-08-08'
+    title: Versions
+    description: 'Versions update.'
   1.10.7:
     date: '2022-07-20'
     title: Versions
@@ -166,10 +170,10 @@ plugin:
     version: 1.2.3
   -
     name: bootstrap/navbar_v1
-    version: 1.15.1
+    version: 1.16.0
   -
     name: wf/bootstrapjs
-    version: 1.7.1
+    version: 1.7.2
   -
     name: wf/dom
     version: '1.0'
@@ -184,7 +188,7 @@ plugin:
     version: '1.0'
   -
     name: wf/account2
-    version: 1.21.2
+    version: 1.21.3
   -
     name: icons/octicons
     version: 1.1.1

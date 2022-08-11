@@ -1,5 +1,9 @@
-version: 1.10.8
+version: 1.11.0
 history:
+  1.11.0:
+    date: '2022-08-11'
+    title: I18N
+    description: 'Include plugin i18n/replace_html_from_attr.'
   1.10.8:
     date: '2022-08-08'
     title: Versions
@@ -228,6 +232,9 @@ plugin:
   -
     name: icons/bootstrap_v1_8_1
     version: 1.1.1
+  -
+    name: i18n/replace_html_from_attr
+    version: 1.0.0
 sys:
   -
     name: mercury

@@ -151,6 +151,11 @@ class PluginThemeInclude{
      */
     $element[] = wfDocument::createHtmlElement('text', "<!-- PluginThemeInclude, End -->\n");
     /**
+     * i18n/replace_html_from_attr
+     */
+    wfPlugin::enable('i18n/replace_html_from_attr');
+    $element[] = wfDocument::createWidget('i18n/replace_html_from_attr', 'include');
+    /**
      * 
      */
     wfDocument::renderElement($element);

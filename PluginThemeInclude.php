@@ -6,6 +6,18 @@ class PluginThemeInclude{
     /**
      * 
      */
+    if($data->get('data/methods')){
+      foreach($data->get('data/methods') as $v){
+        $i = new PluginWfArray($v);
+        wfPlugin::includeonce($i->get('plugin'));
+        $obj = wfSettings::getPluginObj($i->get('plugin'));
+        $method = $i->get('method');
+        $data = $obj->$method($data);
+      }
+    }
+    /**
+     * 
+     */
     $element = array();
     /**
      * 

@@ -35,3 +35,12 @@ For a while we also using Octicons. To include them this settings has to be set.
     icons:
       octicons: true
 ```
+
+### Methods
+To modify data one could call a method.
+```
+    methods:
+      -
+        plugin: memb_inc/vote_public
+        method: set_icon
+```

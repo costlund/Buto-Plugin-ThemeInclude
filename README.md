@@ -45,6 +45,13 @@ To modify data one could call a method.
         method: set_icon
 ```
 
+### Title
+Add title from page settings.
+```
+settings:
+  title: My page
+```
+
 ### Meta data
 Add meta data from page settings description, keywords, author.
 ```

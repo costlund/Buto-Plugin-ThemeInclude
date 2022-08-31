@@ -31,6 +31,12 @@ class PluginThemeInclude{
       $element[] = wfDocument::createWidget('meta/noindex', 'noindex');
     }
     /**
+     * title
+     */
+    if(wfGlobals::get('page/settings/title')){
+      $element[] = wfDocument::createHtmlElement('title', wfGlobals::get('page/settings/title'));
+    }
+    /**
      * meta data from page settings
      */
     if(wfGlobals::get('page/settings/description')){

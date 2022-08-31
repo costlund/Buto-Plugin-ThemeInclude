@@ -31,6 +31,18 @@ class PluginThemeInclude{
       $element[] = wfDocument::createWidget('meta/noindex', 'noindex');
     }
     /**
+     * meta data from page settings
+     */
+    if(wfGlobals::get('page/settings/description')){
+      $element[] = wfDocument::createHtmlElement('meta', null, array('name' => 'description', 'content' => wfGlobals::get('page/settings/description')));
+    }
+    if(wfGlobals::get('page/settings/keywords')){
+      $element[] = wfDocument::createHtmlElement('meta', null, array('name' => 'keywords', 'content' => wfGlobals::get('page/settings/keywords')));
+    }
+    if(wfGlobals::get('page/settings/author')){
+      $element[] = wfDocument::createHtmlElement('meta', null, array('name' => 'author', 'content' => wfGlobals::get('page/settings/author')));
+    }
+    /**
      * Icon
      */
     $icon_element = array();

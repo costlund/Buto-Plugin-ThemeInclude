@@ -44,3 +44,12 @@ To modify data one could call a method.
         plugin: memb_inc/vote_public
         method: set_icon
 ```
+
+### Meta data
+Add meta data from page settings description, keywords, author.
+```
+settings:
+  description: 'My description.'
+  keywords: 'word, word'
+  author: Buto
+```

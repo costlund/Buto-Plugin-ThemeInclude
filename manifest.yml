@@ -1,12 +1,16 @@
-version: 1.14.0
+version: 1.14.1
 history:
+  1.14.1:
+    date: '2022-09-07'
+    title: Versions
+    description: 'Versions update.'
   1.14.0:
     date: '2022-08-31'
     title: Title
     description: 'Add title from page settings.'
   1.13.0:
     date: '2022-08-31'
-    title: Meta data
+    title: 'Meta data'
     description: 'Add meta data from page settings description, keywords, author.'
   1.12.0:
     date: '2022-08-30'
@@ -187,7 +191,7 @@ history:
 plugin:
   -
     name: twitter/bootstrap453v
-    version: 1.2.3
+    version: 1.2.4
   -
     name: bootstrap/navbar_v1
     version: 1.16.0
@@ -202,19 +206,19 @@ plugin:
     version: 1.4.2
   -
     name: wf/array
-    version: 1.2.3
+    version: 1.2.4
   -
     name: wf/callbackjson
     version: '1.0'
   -
     name: wf/account2
-    version: 1.22.0
+    version: 1.22.2
   -
     name: icons/octicons
     version: 1.1.1
   -
     name: form/form_v1
-    version: 1.53.0
+    version: 1.54.0
   -
     name: eternicode/bootstrapdatepicker2
     version: 1.6.0

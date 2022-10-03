@@ -12,12 +12,15 @@ data:
 ### Bootswatch
 Check out plugin bootstrap/bootswatch_v431 for availible theme settings. Param data/bootswatch/theme has to be set to one of www.bootswatch.com themes for version 4.3.1. If not set theme Cerulean is used.
 ```
-    icon: '/theme/[theme]/icon/link_icon.png'
     bootswatch:
       theme: Cerulean
 ```
 ### Icon
-Path to icon is optional. Default value below.
+Put your icon in this folder.
+```
+/theme/[theme]/icon/link_icon.png
+```
+Path to icon can be changed. Default value below.
 ```
     icon: '/theme/[theme]/icon/link_icon.png'
 ```

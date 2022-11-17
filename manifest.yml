@@ -1,5 +1,9 @@
-version: 1.14.5
+version: 1.14.6
 history:
+  1.14.6:
+    date: '2022-11-17'
+    title: Versions
+    description: 'Versions update.'
   1.14.5:
     date: '2022-10-14'
     title: Versions
@@ -213,7 +217,7 @@ plugin:
     version: 1.16.1
   -
     name: wf/bootstrapjs
-    version: 1.10.0
+    version: 1.10.1
   -
     name: wf/dom
     version: '1.0'
@@ -228,13 +232,13 @@ plugin:
     version: '1.0'
   -
     name: wf/account2
-    version: 1.23.3
+    version: 1.24.0
   -
     name: icons/octicons
     version: 1.1.2
   -
     name: form/form_v1
-    version: 1.56.1
+    version: 1.56.2
   -
     name: eternicode/bootstrapdatepicker2
     version: 1.6.0
@@ -243,7 +247,7 @@ plugin:
     version: '1.1'
   -
     name: datatable/datatable_1_10_18
-    version: 1.5.2
+    version: 1.5.3
   -
     name: bootstrap4/fs_modal
     version: 1.4.2

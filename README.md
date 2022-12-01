@@ -49,7 +49,7 @@ To modify data one could call a method.
 ```
 
 ### Title
-Add title from page settings.
+Add title from layout or page settings/title (if one or more is set).
 ```
 settings:
   title: My page

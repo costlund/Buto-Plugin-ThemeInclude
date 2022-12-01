@@ -33,8 +33,8 @@ class PluginThemeInclude{
     /**
      * title
      */
-    if(wfGlobals::get('page/settings/title')){
-      $element[] = wfDocument::createHtmlElement('title', wfGlobals::get('page/settings/title'));
+    if(wfDocument::$title){
+      $element[] = wfDocument::createHtmlElement('title', '');
     }
     /**
      * meta data from page settings

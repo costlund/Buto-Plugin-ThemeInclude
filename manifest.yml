@@ -1,5 +1,9 @@
-version: 1.14.6
+version: 1.15.0
 history:
+  1.15.0:
+    date: '2022-12-01'
+    title: Title
+    description: 'Add title from layout or page settings/title (if one or more is set).'
   1.14.6:
     date: '2022-11-17'
     title: Versions

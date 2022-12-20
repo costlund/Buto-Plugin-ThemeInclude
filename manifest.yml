@@ -1,5 +1,10 @@
-version: 1.15.0
+version: 1.16.0
 history:
+  1.16.0:
+    date: '2022-12-19'
+    title: 'json/bind'
+    description: 'Add plugin json/bind.'
+    webmaster: 'Remove widget include (json/bind) in themes using this plugin.'
   1.15.0:
     date: '2022-12-01'
     title: Title
@@ -279,6 +284,9 @@ plugin:
   -
     name: i18n/replace_html_from_attr
     version: 1.0.1
+  -
+    name: json/bind
+    version: 1.2.0
 sys:
   -
     name: mercury

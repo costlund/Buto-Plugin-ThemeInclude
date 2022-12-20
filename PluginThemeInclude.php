@@ -186,6 +186,11 @@ class PluginThemeInclude{
     wfPlugin::enable('i18n/replace_html_from_attr');
     $element[] = wfDocument::createWidget('i18n/replace_html_from_attr', 'include');
     /**
+     * i18n/replace_html_from_attr
+     */
+    wfPlugin::enable('json/bind');
+    $element[] = wfDocument::createWidget('json/bind', 'include');
+    /**
      * 
      */
     wfDocument::renderElement($element);

@@ -1,8 +1,12 @@
-version: 1.17.0
+version: 1.17.1
 history:
+  1.17.1:
+    date: '2023-03-22'
+    title: Versions
+    description: 'Versions update.'
   1.17.0:
     date: '2023-03-22'
-    title: Bootstrap 5
+    title: 'Bootstrap 5'
     description: 'Add plugin twitter/bootstrap530v.'
   1.16.5:
     date: '2023-03-09'
@@ -247,13 +251,13 @@ plugin:
     version: 1.2.5
   -
     name: twitter/bootstrap530v
-    version: 1.0.0
+    version: 1.0.1
   -
     name: bootstrap/navbar_v1
-    version: 1.16.1
+    version: 1.17.0
   -
     name: wf/bootstrapjs
-    version: 1.11.0
+    version: 1.12.0
   -
     name: wf/dom
     version: '1.0'
@@ -268,13 +272,13 @@ plugin:
     version: '1.0'
   -
     name: wf/account2
-    version: 1.24.2
+    version: 1.24.3
   -
     name: icons/octicons
     version: 1.1.2
   -
     name: form/form_v1
-    version: 1.58.1
+    version: 1.58.2
   -
     name: eternicode/bootstrapdatepicker2
     version: 1.6.0
@@ -298,7 +302,7 @@ plugin:
     version: 1.1.1
   -
     name: wf/table
-    version: 1.33.0
+    version: 1.33.2
   -
     name: bootstrap/navtabs_v1
     version: 1.7.0

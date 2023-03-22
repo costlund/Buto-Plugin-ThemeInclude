@@ -9,6 +9,15 @@ data:
   method: include
   data:
 ```
+
+### Bootstrap
+Default version of Bootstrap is version 4. On could change to version 5.
+```
+    bootstrap:
+      version: 5
+```
+
+
 ### Bootswatch
 Check out plugin bootstrap/bootswatch_v431 for availible theme settings. Param data/bootswatch/theme has to be set to one of www.bootswatch.com themes for version 4.3.1. If not set theme Cerulean is used.
 ```

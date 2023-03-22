@@ -1,5 +1,9 @@
-version: 1.16.5
+version: 1.17.0
 history:
+  1.17.0:
+    date: '2023-03-22'
+    title: Bootstrap 5
+    description: 'Add plugin twitter/bootstrap530v.'
   1.16.5:
     date: '2023-03-09'
     title: Versions
@@ -241,6 +245,9 @@ plugin:
   -
     name: twitter/bootstrap453v
     version: 1.2.5
+  -
+    name: twitter/bootstrap530v
+    version: 1.0.0
   -
     name: bootstrap/navbar_v1
     version: 1.16.1

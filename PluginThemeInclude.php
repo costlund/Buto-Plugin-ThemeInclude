@@ -83,10 +83,23 @@ class PluginThemeInclude{
       $element[] = $icon_element;
     }
     /**
-     * Bootstrap 4.
+     * Bootstrap.
      */
-    wfPlugin::enable('twitter/bootstrap453v');
-    $element[] = wfDocument::createWidget('twitter/bootstrap453v', 'include', array('meta' => true, 'css' => true, 'jquery' => true, 'popper' => true, 'js' => true));
+    if(!$data->get('data/bootstrap/version') || $data->get('data/bootstrap/version')=='4'){
+      /**
+       * Bootstrap 4.
+       */
+      wfPlugin::enable('twitter/bootstrap453v');
+      $element[] = wfDocument::createWidget('twitter/bootstrap453v', 'include', array('meta' => true, 'css' => true, 'jquery' => true, 'popper' => true, 'js' => true));
+    }elseif($data->get('data/bootstrap/version')=='5'){
+      /**
+       * Bootstrap 5.
+       */
+      wfPlugin::enable('twitter/bootstrap530v');
+      $element[] = wfDocument::createWidget('twitter/bootstrap530v', 'include', array('meta' => true, 'css' => true, 'jquery' => true, 'popper' => true, 'js' => true));
+    }else{
+      throw new Exception(__CLASS__.'::'.__FUNCTION__.' says: Incorrect Bootstrap version provided ('.$data->get('data/bootstrap/version').').');
+    }
     /**
      * Bootswatch.
      */

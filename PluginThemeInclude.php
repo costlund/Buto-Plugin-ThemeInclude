@@ -209,6 +209,10 @@ class PluginThemeInclude{
     wfPlugin::enable('bootstrap/toast');
     $element[] = wfDocument::createWidget('bootstrap/toast', 'include');
     /**
+     * bootstrap/accordion
+     */
+    wfPlugin::enable('bootstrap/accordion');
+    /**
      * 
      */
     wfDocument::renderElement($element);

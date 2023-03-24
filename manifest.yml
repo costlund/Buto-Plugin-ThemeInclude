@@ -1,5 +1,9 @@
-version: 1.17.1
+version: 1.18.0
 history:
+  1.18.0:
+    date: '2023-03-24'
+    title: bootstrap/toast
+    description: 'Add plugin bootstrap/toast.'
   1.17.1:
     date: '2023-03-22'
     title: Versions
@@ -318,6 +322,9 @@ plugin:
   -
     name: json/bind
     version: 1.2.0
+  -
+    name: bootstrap/toast
+    version: 1.0.0
 sys:
   -
     name: mercury

@@ -204,6 +204,11 @@ class PluginThemeInclude{
     wfPlugin::enable('json/bind');
     $element[] = wfDocument::createWidget('json/bind', 'include');
     /**
+     * bootstrap/toast
+     */
+    wfPlugin::enable('bootstrap/toast');
+    $element[] = wfDocument::createWidget('bootstrap/toast', 'include');
+    /**
      * 
      */
     wfDocument::renderElement($element);

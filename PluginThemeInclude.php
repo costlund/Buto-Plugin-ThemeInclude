@@ -85,7 +85,13 @@ class PluginThemeInclude{
     /**
      * Bootstrap.
      */
-    if(!$data->get('data/bootstrap/version') || $data->get('data/bootstrap/version')=='4'){
+    if(!$data->get('data/bootstrap/version')){
+      $data->set('data/bootstrap/version', '4');
+    }
+    /**
+     * 
+     */
+    if($data->get('data/bootstrap/version')=='4'){
       /**
        * Bootstrap 4.
        */
@@ -103,9 +109,14 @@ class PluginThemeInclude{
     /**
      * Bootswatch.
      */
-    wfPlugin::enable('bootstrap/bootswatch_v431');
     if($data->get('data/bootswatch/theme')){
-      $element[] = wfDocument::createWidget('bootstrap/bootswatch_v431', 'include', array('theme' => $data->get('data/bootswatch/theme')));
+      if($data->get('data/bootstrap/version')=='4'){
+        wfPlugin::enable('bootstrap/bootswatch_v431');
+        $element[] = wfDocument::createWidget('bootstrap/bootswatch_v431', 'include', array('theme' => $data->get('data/bootswatch/theme')));
+      }elseif($data->get('data/bootstrap/version')=='5'){
+        wfPlugin::enable('bootstrap/bootswatch_v523');
+        $element[] = wfDocument::createWidget('bootstrap/bootswatch_v523', 'include', array('theme' => $data->get('data/bootswatch/theme')));
+      }
     }
     /**
      * Navbar.

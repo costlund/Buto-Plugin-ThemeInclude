@@ -24,6 +24,9 @@ Check out plugin bootstrap/bootswatch_v431 for availible theme settings. Param d
     bootswatch:
       theme: Cerulean
 ```
+#### Plugin bootstrap/bootswatch_v523
+This plugin is in usage when Bootstrap 5.
+
 ### Icon
 Put your icon in this folder.
 ```

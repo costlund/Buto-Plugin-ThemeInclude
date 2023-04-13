@@ -1,5 +1,9 @@
-version: 1.19.0
+version: 1.20.0
 history:
+  1.20.0:
+    date: '2023-04-12'
+    title: bootstrap/bootswatch_v523
+    description: 'Add plugin bootstrap/bootswatch_v523. Loaded when Bootstrap 5 in usage.'
   1.19.0:
     date: '2023-03-24'
     title: bootstrap/accordion
@@ -331,6 +335,9 @@ plugin:
     version: 1.0.0
   -
     name: bootstrap/accordion
+    version: 1.0.0
+  -
+    name: bootstrap/bootswatch_v523
     version: 1.0.0
 sys:
   -

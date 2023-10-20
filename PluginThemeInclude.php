@@ -136,7 +136,7 @@ class PluginThemeInclude{
      * wf/ajax
      */
     wfPlugin::enable('wf/ajax');
-    $element[] = wfDocument::createWidget('wf/ajax', 'include');
+    $element[] = wfDocument::createWidget('wf/ajax', 'include', $data->get('data/plugin/wf/ajax'));
     /**
      * wf/callbackjson
      */

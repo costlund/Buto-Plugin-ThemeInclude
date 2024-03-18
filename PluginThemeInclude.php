@@ -228,16 +228,4 @@ class PluginThemeInclude{
      */
     wfDocument::renderElement($element);
   }
-  public function widget_i18n(){
-    $element = array();
-    /**
-     * wf/ajax
-     */
-    wfPlugin::enable('wf/ajax');
-    $element[] = wfDocument::createWidget('wf/ajax', 'i18n');
-    /**
-     * 
-     */
-    wfDocument::renderElement($element);
-  }
 }

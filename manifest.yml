@@ -1,5 +1,9 @@
-version: 1.21.2
+version: 1.21.3
 history:
+  1.21.3:
+    date: '2023-03-18'
+    title: I18N
+    description: 'Remove widget i18n.'
   1.21.2:
     date: '2023-10-20'
     title: wf/ajax

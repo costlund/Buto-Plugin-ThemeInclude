@@ -1,5 +1,9 @@
-version: 1.21.3
+version: 1.22.0
 history:
+  1.22.0:
+    date: '2024-03-19'
+    title: theme/heartbeat
+    description: 'Add plugin theme/heartbeat. Add param plugin/theme/heartbeat.'
   1.21.3:
     date: '2023-03-18'
     title: I18N

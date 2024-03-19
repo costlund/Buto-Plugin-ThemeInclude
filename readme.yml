@@ -1,0 +1,103 @@
+readme:
+  name: Buto-Plugin-ThemeInclude
+  description: |
+    This plugin include other plugins matching Bootstrap 4 usage. It will keep your theme settings file smaller.
+  item:
+    -
+      name: Settings
+      description: |
+        Add meta data from page settings description, keywords, author.
+        ```
+        settings:
+          description: 'My description.'
+          keywords: 'word, word'
+          author: Buto
+        ```
+
+        theme/heartbeat. To activate this plugin one has to put page settings according below.
+        ```
+        plugin_modules:
+          heartbeat:
+            plugin: theme/heartbeat
+        ```
+    -
+      name: Usage
+    -
+      name: Pages
+      item: {  }
+    -
+      name: Widgets
+      item:
+        -
+          name: widget_include
+          description: |
+            Include.
+            Include widget in html head section.
+            ```
+            type: widget
+            data:
+              plugin: 'theme/include'
+              method: include
+              data:
+            ```
+
+            Bootstrap.
+            Default version of Bootstrap is version 4. On could change to version 5.
+            ```
+                bootstrap:
+                  version: 5
+            ```
+
+            Bootswatch.
+            Check out plugin bootstrap/bootswatch_v431 for availible theme settings. Param data/bootswatch/theme has to be set to one of www.bootswatch.com themes for version 4.3.1. If not set theme Cerulean is used.
+            ```
+                bootswatch:
+                  theme: Cerulean
+            ```
+            This plugin is in usage when Bootstrap 5.
+
+            Icon.
+            Path to icon can be changed. Default value below.
+            ```
+                icon: '/theme/[theme]/icon/link_icon.png'
+            ```
+            
+            Noindex.
+            Set enable to true to stop search engins for indexing pages.
+            ```
+                noindex:
+                  enabled: true
+            ```
+
+            Icons.
+            We are using Bootstrap icons 1.8.1.
+            For a while we also using Octicons. To include them this settings has to be set.
+            ```
+                icons:
+                  octicons: true
+            ```
+
+            Methods.
+            To modify data one could call a method.
+            ```
+                methods:
+                  -
+                    plugin: memb_inc/vote_public
+                    method: set_icon
+            ```
+
+            Plugin. Included plugin settings are supported below. Check each plugin readme.
+            ```
+                plugin:
+                  wf:
+                    ajax:
+                  theme:
+                    heartbeat:
+            ```
+    -
+      name: Event
+      item: {  }
+    -
+      name: Construct
+    -
+      name: Methods

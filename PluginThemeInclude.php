@@ -201,10 +201,6 @@ class PluginThemeInclude{
      */
     wfPlugin::enable('icons/bootstrap_v1_8_1');
     /**
-     * 
-     */
-    $element[] = wfDocument::createHtmlElement('text', "<!-- PluginThemeInclude, End -->\n");
-    /**
      * i18n/replace_html_from_attr
      */
     wfPlugin::enable('i18n/replace_html_from_attr');
@@ -223,6 +219,15 @@ class PluginThemeInclude{
      * bootstrap/accordion
      */
     wfPlugin::enable('bootstrap/accordion');
+    /**
+     * theme/heartbeat
+     */
+    wfPlugin::enable('theme/heartbeat');
+    $element[] = wfDocument::createWidget('theme/heartbeat', 'include', $data->get('data/plugin/theme/heartbeat'));
+    /**
+     * 
+     */
+    $element[] = wfDocument::createHtmlElement('text', "<!-- PluginThemeInclude, End -->\n");
     /**
      * 
      */

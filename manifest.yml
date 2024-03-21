@@ -1,5 +1,9 @@
-version: 1.22.0
+version: 1.23.0
 history:
+  1.23.0:
+    date: '2024-03-21'
+    title: Json data
+    description: 'Embed js file and set json data from session.'
   1.22.0:
     date: '2024-03-19'
     title: theme/heartbeat

@@ -22,6 +22,14 @@ readme:
         ```
     -
       name: Usage
+      description: |
+        Embedding js class with session data.
+        ````
+        console.log(PluginThemeInclude.data);
+        ````
+        ````
+        console.log(PluginThemeInclude.has_role('client'));
+        ````
     -
       name: Pages
       item: {  }

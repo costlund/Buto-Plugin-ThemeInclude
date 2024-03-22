@@ -86,17 +86,17 @@ class PluginThemeInclude{
      * json
      */
     $element[] = wfDocument::createWidget('wf/embed', 'embed', array('type' => 'script', 'file' => '/plugin/theme/include/js/PluginThemeInclude.js'));
-    $data = new PluginWfArray();
-    $data->set('role', wfUser::getSession()->get('role'));
-    $data->set('theme_data', wfUser::getSession()->get('theme_data'));
-    $data->set('i18n', wfUser::getSession()->get('i18n'));
-    $data->set('sys', wfUser::getSession()->get('sys'));
-    $data->set('secure', wfUser::getSession()->get('secure'));
-    $data->set('email', wfUser::getSession()->get('email'));
-    $data->set('username', wfUser::getSession()->get('username'));
-    $data->set('user_id', wfUser::getSession()->get('user_id'));
-    $data->set('details', wfUser::getSession()->get('details'));
-    $json_data = json_encode($data->get());
+    $temp = new PluginWfArray();
+    $temp->set('role', wfUser::getSession()->get('role'));
+    $temp->set('theme_data', wfUser::getSession()->get('theme_data'));
+    $temp->set('i18n', wfUser::getSession()->get('i18n'));
+    $temp->set('sys', wfUser::getSession()->get('sys'));
+    $temp->set('secure', wfUser::getSession()->get('secure'));
+    $temp->set('email', wfUser::getSession()->get('email'));
+    $temp->set('username', wfUser::getSession()->get('username'));
+    $temp->set('user_id', wfUser::getSession()->get('user_id'));
+    $temp->set('details', wfUser::getSession()->get('details'));
+    $json_data = json_encode($temp->get());
     $element[] = wfDocument::createHtmlElement('script', "PluginThemeInclude.data = $json_data");
     /**
      * Bootstrap.

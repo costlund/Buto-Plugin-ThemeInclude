@@ -20,7 +20,9 @@
 
 ## Usage
 
-
+<p>Embedding js class with session data.</p>
+<pre><code>console.log(PluginThemeInclude.data);</code></pre>
+<pre><code>console.log(PluginThemeInclude.has_role('client'));</code></pre>
 
 <a name="key_2"></a>
 
